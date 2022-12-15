@@ -3,22 +3,57 @@
 </p>
 
 
-# Teslo API
+## Install Packages
 
-1. Clonar proyecto
-2. ```yarn install```
-3. Clonar el archivo ```.env.template``` y renombrarlo a ```.env```
-4. Cambiar las variables de entorno
-5. Levantar la base de datos
-```
-docker-compose up -d
+```bash
+$ npm install
 ```
 
-6. Levantar: ```yarn start:dev```
-
-7. Ejecutar SEED 
+## Lift Database With Docker
 ```
+$ docker-compose up -d
+```
+
+## Rebuild Database With Seed
+```bash
+# development
 http://localhost:3000/api/seed
 ```
 
+## Running the app
 
+```bash
+# development
+$ npm run start
+
+# watch mode
+$ npm run start:dev
+
+# production mode
+$ npm run start:prod
+```
+
+## Test
+
+```bash
+# unit tests
+$ npm run test
+
+# e2e tests
+$ npm run test:e2e
+
+# test coverage
+$ npm run test:cov
+```
+
+## Technologies
+```
+* TypeScript
+* PostgreSQL
+* TypeORM
+* NestJS
+* Docker
+* BCrypt
+* PassPort
+* JWT
+```
