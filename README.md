@@ -48,12 +48,10 @@ $ npm run test:cov
 
 ## Technologies
 ```
-* TypeScript
-* PostgreSQL
-* TypeORM
-* NestJS
 * Docker
-* BCrypt
-* PassPort
-* JWT
+* TypeScript - NestJS
+* PostgreSQL - TypeORM
+* BCrypt - PassPort
+* Json Web Token
+* Swagger - OpenAPI
 ```
