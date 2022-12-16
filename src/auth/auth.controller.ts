@@ -38,7 +38,7 @@ export class AuthController {
   }
 
 
-  @Get('private')
+  @Get('private1')
   @UseGuards( AuthGuard() )
   testingPrivateRoute(
     @Req() request: Express.Request,
